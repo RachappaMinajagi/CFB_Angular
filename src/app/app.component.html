@@ -2,12 +2,10 @@
   <img src ="{{imgURL}}" (click)="onchangeImg()"/>
   </div>
   <div><b>{{name}}</b></div>
-
-
-
+  <br/>
 <!-- <input (change)="onchangeCall()"/> -->
-
-
-<input [(ngModel)]="userName" (change)="onchangeCall()"/>
-
-
+<div id="testbox"><input [(ngModel)]="userName" (change)="onchangeCall()"/></div>
+<br/>
+<a href="first">First</a>&nbsp; &nbsp;
+<a href="second">Second</a>
+<router-outlet></router-outlet>
